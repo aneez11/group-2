@@ -160,7 +160,8 @@ span{
   hr{
     border-color:white;
   }
-  .fc{
-    font-family: 'Dosis', sans-serif;
-    font-size: 12px;
-  }
+  
+.fc{
+  font-family: 'Dosis', sans-serif;
+  font-size: 10px;
+}
