@@ -1,0 +1,162 @@
+.pagemovie{
+    text-align: center;
+    color:white;
+    font-weight:bold;
+
+}
+body{
+    background-color:#172034;
+}
+.active{
+text-align:center;
+color:white;
+
+}
+.but{
+
+  color:white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  background-color: #172034;
+  border-style: none;
+  border: none;
+  padding-top:9px;
+  hover{
+    opacity: 50%;
+
+  }
+
+}
+.vertical-line{
+height: 4px;
+color: white;
+background-color:#C7C9D1 ;
+border: none;
+}
+
+.fa {
+padding:20px;
+font-size:15px;
+width:30px;
+text-align: right;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 55%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background:#3B5998;
+  color:white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+h2,h3,h4,h6,h7,h8,label,h12{
+  color:white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+font-weight: bold;
+}
+.sudip_a{
+  color:white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  background-color:  #172034;
+  text-decoration: none;
+  
+
+l
+
+  }
+
+
+
+}.sudip_a:hover{
+  color:green;
+  text-decoration:none;
+}
+.star {
+  color:yellow;
+}
+span{
+  color:white;}
+.line{
+  color:white;
+}
+.row1{
+   border-style:solid;
+   border-radius: 5px;
+   border-color: white;
+   border-width: thin;
+ }
+ .movie-no{
+   color:blue;
+ }
+ p{
+font-family: 'Nunito', sans-serif;
+font-size: 14px;
+color: #abb7c4;
+font-weight: 300;
+text-transform: none;
+line-height: 20px ;
+padding-top: 8px
+}
+.prim{
+  background-color:  #172034;
+  border-style: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+}
+.grid,.list{
+  color:white;
+  padding-top: 8px;
+font-size:20px;
+}
+.socialicon{
+   font-size:50px;
+   border-style:inset;
+   border-radius: 5px;
+}
+.icon{
+  background-color: #3D74EE;
+
+
+}
+h3{
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+font-weight: bold;
+
+}
+.submit{
+  font-family: 'Dosis', sans-serif;
+   font-size: 14px;
+   background-color: #dd003f;
+   color: #ffffff;
+   font-weight: bold;
+
+}
+.submit:hover{
+  background-color:#6CAEF0;
+}
+.pageno{
+   padding-top: 9px;
+   background-color: #172034;
+   color:#172034;
+}
+h5{
+  color:white;
+}
+.card{
+
+background-color:  #172034;
+border-color: white;
+border-radius: 5px;
+border-width: .5px;
+}
+hr{
+   border-color:white;
+}
