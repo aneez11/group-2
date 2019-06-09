@@ -1,0 +1,21 @@
+.form-group{
+  color:rgb(96, 103, 114);
+}
+.card-title{
+  color:white;
+}
+.form-control{
+  background-color: rgb(149, 182, 237);
+}
+.color-style{
+  color: rgb(96, 103, 114);
+}
+.my_class{
+  color: rgb(227, 234, 244);
+}
+.card-border{
+  border:double;
+}
+.circle{
+  border-radius: 50px;
+}

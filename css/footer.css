@@ -1,0 +1,27 @@
+.nostyle{
+  list-style: none;
+
+
+}
+.colorblue{
+  background-color: rgb(63, 66, 65);
+}
+.page-footer{
+  color: white;
+}
+.page-footer a{
+  color: white;
+}
+.page-footer .colorred{
+  color: rgb(255, 0, 16);
+}
+.page-footer a:hover{
+  color: rgb(204, 216, 28);
+  text-decoration: none;
+}
+.paddingbuttom{
+  padding-bottom: 20px;
+}
+.paddingside{
+  padding-left: 300px;
+}
