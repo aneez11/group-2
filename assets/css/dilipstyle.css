@@ -1,0 +1,152 @@
+h1{
+	background-color:transparent;
+	text-align:center;
+	text-color:white;
+}
+
+
+.mynav{
+	position:relative;
+	margin-bottom: 20px;
+	border:1px solid transparent;
+	background-color: #f8f8f8;
+	height:150px;
+}
+
+.header-logo{
+	float: left;
+}
+.dropdownbtn{
+	background-color: transparent;
+	border: 1px solid transparent;
+	text-color:white;
+}
+
+button{
+	font-family: 'Russo One', sans-serif;
+	color: black;
+	font-size: 10px;
+}
+
+.dropbutton{
+	font-family: 'Russo One', sans-serif;
+	color: black;
+}
+
+
+paddingfor_navitem{
+	padding-top: 15px;
+}
+.nav-item{
+	margin-top: 17px;
+}
+
+.rightmargin{
+	margin-right: 30px;
+}
+
+.sb-title{
+	font-family: 'Dosis', sans-serif;
+	font-size:19px;
+	color:black;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding-top: 40px;
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+	border-bottom:1px solid green;
+}
+
+
+
+.sb-cate ul li a:hover{
+	color:#dcf836;
+
+}
+.sb-cate li a{
+	font-family: 'Nunito',sans-serif;
+	font-size: 14px;
+	color:#abb7c4;
+	font-weight: 300;
+	text-transform: none;
+}
+.sb-it{
+	margin-bottom: 60px;
+}
+
+.recent-item{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 15px;
+}
+
+.recent-item span{
+	font-family: 'Dosis',sans-serif;
+	font-size: 48px;
+	color: #4f5b68;
+	font-weight: 300;
+	text-transform: uppercase;
+	width: 30px;
+
+}
+
+.recent-item h6{
+	margin-left:30px; 
+}
+.recent-item h6 a{
+	font-family: 'Dosis',sans-serif;
+	font-size: 14px;
+	color:#4280bf;
+	font-weight: bold;
+	text-transform: none;
+
+}
+
+.paginationstyle{
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	margin-right: 8px;
+
+}
+
+.paginationcenter{
+	align-self: center;
+}
+
+.image_of_card{
+	height: fit-content;
+	width: 165px;
+	margin-top: 10px
+	margin-bottom10px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+.grid_item_style{
+	margin-top: 45px;
+	margin-left: -45px;
+}
+
+.searchleft{
+	border-radius: 0px;
+	background-color: white;
+	border-left: 4px solid black;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	border-right: 1px solid black;
+}
+.searchright{
+	background-color: white;
+	border-radius: 0px;
+	border:4px solid;
+	border-left: white;
+	height: 44px;
+
+}
