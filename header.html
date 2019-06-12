@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		This is group2
+	</title>
+	<link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/dilipstyle.css">
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light mynav" style="height: 100px;">
+	<a class="navbar-brand header-logo" href="index.html">
+  			<img class="logo" src="images/logo1.png" alt width="119" height="58">
+  		</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	   		<span class="navbar-toggler-icon"></span>
+  			</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+		<li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle dropbutton"href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          HOME
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+		<li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle dropbutton" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          MOVIES
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+		<li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle dropbutton" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          CELIBERITY
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+
+		<li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle dropbutton" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          NEWS
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>   
+		<li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle dropbutton" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          COMMUNITY
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+	 </ul>
+</div>
+<ul class="navbar-nav mr-auto rightmargin">
+      <li class="nav-item">
+        <a class="nav-link dropbutton" href="#">PAGES<span class="sr-only">(current)</span></a>
+      </li>
+  
+      <li class="nav-item">
+        <a class="nav-link dropbutton" href="#">HELP<span class="sr-only">(current)</span></a>
+      </li>
+  
+      <li class="nav-item">
+        <a class="nav-link dropbutton" href="index.html">LOGIN <span class="sr-only">(current)</span></a>
+      </li>
+  <li class="nav-item">
+  <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+</li>
+</ul>
+</nav>
+
+
+<div class="container">
+    <div class="row">    
+        <div style="width:100%">
+		    <div class="input-group">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle searchleft" style="box-shadow: none;height: 60px;" data-toggle="dropdown">
+                    	<span id="search_concept">Filter by</span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#contains">TV SHOW </a></li>
+                      <li><a href="#its_equal">OTHERS</a></li>
+                    </ul>
+                </div>
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="Search for movie TV show or celebrity that you are looking for" style="border-right:white;border-top: 4px solid black;border-bottom: 4px solid black;box-shadow: none;">
+                <span class="input-group-btn">
+                    <button class="btn btn-default searchright" style="box-shadow: none;height: 60px;" type="button"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="assets/js/jquery.js">
+</script>
+
+<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.bundle.js.map"></script>
+<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js.map"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js.map"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js.map"></script>
+<script type="text/javascript" src="assets/js/dilip.js"></script>
+
+
+
+
+
+</body>
+</html>
